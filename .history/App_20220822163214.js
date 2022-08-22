@@ -6,9 +6,9 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Home from './Screens/Home';
-import TakePic from './Screens/Camera';
+import Home from './screens/Home';
 
+import TakePic from './screens/Camera';
 
 
 export default function App() {
@@ -37,7 +37,7 @@ export default function App() {
           tabBarInactiveTintColor: 'gray',
         })}
       >
-        <Tab.Screen name="Home" component={ Home } />
+        <Tab.Screen name="Home" component={ J } />
         <Tab.Screen name="Camera" component={ TakePic } />
       </Tab.Navigator>
     </NavigationContainer>

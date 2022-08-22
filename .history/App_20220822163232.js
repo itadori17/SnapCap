@@ -6,8 +6,6 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Home from './Screens/Home';
-import TakePic from './Screens/Camera';
 
 
 
